@@ -29,36 +29,47 @@ document.addEventListener('DOMContentLoaded', () => {
     const performanceSummaryEl = document.getElementById('subject-performance');
     const backToQuestionsBtn = document.getElementById('back-to-questions-btn');
     
-    // Simulação do banco de dados inicial
+    // Simulação do banco de dados inicial apenas com as matérias
     const initialData = {
-        "Direito Processual Penal": [
-            {
-                "id": 11,
-                "pergunta": "No processo penal, a citação do réu tem por finalidade principal cientificá-lo da existência do processo e chamá-lo para a causa, sendo considerada a materialização dos princípios do contraditório e da ampla defesa. Qual o momento em que o processo completa sua formação, nos termos do CPP?",
-                "alternativas": {
-                    "a": "Quando o juiz recebe a denúncia ou queixa.",
-                    "b": "Com a citação do acusado.",
-                    "c": "Na apresentação da resposta à acusação.",
-                    "d": "Com a juntada do mandado de citação aos autos.",
-                    "e": "No momento do interrogatório do réu."
-                },
-                "gabarito": "b",
-                "comentario": "A questão aborda o conceito de citação e o momento da formação da relação processual, conforme o artigo 363 do CPP. A citação é o ato fundamental que integra o réu ao processo, garantindo-lhe o exercício da ampla defesa e do contraditório. O processo somente se considera formado após a realização desse ato. (Páginas 3 e 4)"
-            },
-            {
-                "id": 12,
-                "pergunta": "Quando o réu estiver fora do território da jurisdição do juiz que a ordenou, a citação se dará por meio de carta precatória. Sobre essa modalidade de citação, assinale a alternativa correta.",
-                "alternativas": {
-                    "a": "A carta precatória não possui caráter itinerante, devendo ser devolvida ao juiz deprecante caso o réu não seja encontrado na localidade do juiz deprecado.",
-                    "b": "Não é cabível a citação por hora certa no juízo deprecado, sendo a precatória imediatamente devolvida ao juiz deprecante para citação por edital, caso o réu se oculte para não ser citado.",
-                    "c": "A citação por carta precatória não suspende o processo nem o prazo prescricional.",
-                    "d": "A carta precatória para fins de citação suspende o curso do prazo prescricional e o processo até o seu cumprimento.",
-                    "e": "É nula a citação por carta precatória se o réu estiver em uma comarca vizinha à do juiz processante."
-                },
-                "gabarito": "c",
-                "comentario": "A citação por carta precatória não suspende o processo ou a prescrição, diferentemente da carta rogatória. Além disso, a precatória é itinerante, o que significa que se o réu não for encontrado na comarca do juiz deprecado, ela pode ser remetida para o juízo onde ele realmente se encontra, desde que haja tempo para o cumprimento. O tema é abordado em detalhes nas páginas 7, 8 e 9."
-            }
-        ]
+        "Língua Portuguesa - Aula 00": [],
+        "Língua Portuguesa - Aula 01": [],
+        "Língua Portuguesa - Aula 02": [],
+        "Língua Portuguesa - Aula 03": [],
+        "Língua Portuguesa - Aula 04": [],
+        "Língua Portuguesa - Aula 05": [],
+        "Língua Portuguesa - Aula 06": [],
+        "Direito Penal - Aula 00": [],
+        "Direito Penal - Aula 01": [],
+        "Direito Penal - Aula 02": [],
+        "Direito Penal - Aula 03": [],
+        "Direito Processual Penal": [],
+        "Direito Processual Penal - Aula 00": [],
+        "Direito Processual Penal - Aula 01": [],
+        "Direito Processual Penal - Aula 02": [],
+        "Direito Processual Penal - Aula 03": [],
+        "Direito Processual Penal - Aula 04": [],
+        "Direito Processual Penal - Aula 05": [],
+        "Direito Processual Penal - Aula 06": [],
+        "Direito Processual Civil - Aula 00": [],
+        "Direito Processual Civil - Aula 01": [],
+        "Direito Processual Civil - Aula 02": [],
+        "Direito Processual Civil - Aula 03": [],
+        "Direito Processual Civil - Aula 04": [],
+        "Direito Processual Civil - Aula 05": [],
+        "Direito Processual Civil - Aula 06": [],
+        "Direito Processual Civil - Aula 07": [],
+        "Direito Processual Civil - Aula 08": [],
+        "Direito Processual Civil - Aula 09": [],
+        "Direito Constitucional - Aula 00": [],
+        "Direito Constitucional - Aula 01": [],
+        "Direito Constitucional - Aula 02": [],
+        "Direito Constitucional - Aula 03": [],
+        "Direito Constitucional - Aula 04": [],
+        "Direito Constitucional - Aula 05": [],
+        "Direito Constitucional - Aula 06": [],
+        "Direito Administrativo - Aula 01": [],
+        "Direito Administrativo - Aula 02": [],
+        "Direito Administrativo - Aula 03": []
     };
 
     // --- FUNÇÕES DE ARMAZENAMENTO E CARREGAMENTO ---
