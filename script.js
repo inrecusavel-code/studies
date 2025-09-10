@@ -42,7 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
         "Direito Penal - Aula 01": [],
         "Direito Penal - Aula 02": [],
         "Direito Penal - Aula 03": [],
-        "Direito Processual Penal": [],
         "Direito Processual Penal - Aula 00": [],
         "Direito Processual Penal - Aula 01": [],
         "Direito Processual Penal - Aula 02": [],
@@ -428,3 +427,4 @@ document.addEventListener('DOMContentLoaded', () => {
     loadSubjects();
     loadPerformance();
 });
+
