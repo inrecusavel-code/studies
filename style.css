@@ -1,0 +1,27 @@
+/* Estilo base para o corpo da página */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Estilos para as alternativas das questões (layout vertical) */
+.option-label {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    border: 1px solid #e5e7eb; /* Cor da borda padrão */
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+/* Efeito ao passar o mouse por cima de uma alternativa */
+.option-label:hover {
+    background-color: #f3f4f6; /* cinza claro */
+    border-color: #3b82f6; /* azul */
+}
+
+/* Estilo para quando uma alternativa está selecionada */
+.option-input:checked + span {
+    font-weight: 600; /* semi-bold */
+}
