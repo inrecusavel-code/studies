@@ -34,46 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- LISTA DE MATÉRIAS COMPLETA E ORIGINAL ---
     // Esta é a lista exata do seu primeiro arquivo, agora formatada para melhor leitura.
-    const initialData = {
-        "Língua Portuguesa - Aula 00": [],
-        "Língua Portuguesa - Aula 01": [],
-        "Língua Portuguesa - Aula 02": [],
-        "Língua Portuguesa - Aula 03": [],
-        "Língua Portuguesa - Aula 04": [],
-        "Língua Portuguesa - Aula 05": [],
-        "Língua Portuguesa - Aula 06": [],
-        "Direito Penal - Aula 00": [],
-        "Direito Penal - Aula 01": [],
-        "Direito Penal - Aula 02": [],
-        "Direito Penal - Aula 03": [],
-        "Direito Processual Penal - Aula 00": [],
-        "Direito Processual Penal - Aula 01": [],
-        "Direito Processual Penal - Aula 02": [],
-        "Direito Processual Penal - Aula 03": [],
-        "Direito Processual Penal - Aula 04": [],
-        "Direito Processual Penal - Aula 05": [],
-        "Direito Processual Penal - Aula 06": [],
-        "Direito Processual Civil - Aula 00": [],
-        "Direito Processual Civil - Aula 01": [],
-        "Direito Processual Civil - Aula 02": [],
-        "Direito Processual Civil - Aula 03": [],
-        "Direito Processual Civil - Aula 04": [],
-        "Direito Processual Civil - Aula 05": [],
-        "Direito Processual Civil - Aula 06": [],
-        "Direito Processual Civil - Aula 07": [],
-        "Direito Processual Civil - Aula 08": [],
-        "Direito Processual Civil - Aula 09": [],
-        "Direito Constitucional - Aula 00": [],
-        "Direito Constitucional - Aula 01": [],
-        "Direito Constitucional - Aula 02": [],
-        "Direito Constitucional - Aula 03": [],
-        "Direito Constitucional - Aula 04": [],
-        "Direito Constitucional - Aula 05": [],
-        "Direito Constitucional - Aula 06": [],
-        "Direito Administrativo - Aula 01": [],
-        "Direito Administrativo - Aula 02": [],
-        "Direito Administrativo - Aula 03": []
-    };
+    const initialData = {};
     // --- FIM DA LISTA DE MATÉRIAS ---
 
     const loadSubjects = () => {
